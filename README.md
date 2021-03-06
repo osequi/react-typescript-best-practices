@@ -10,7 +10,8 @@ A work in progress ....
 3. `extend` interfaces versus unions. (1)
 4. Don't destructure the function signature. (2)
 5. Use lodash's `defaultsDeep` to merge default props. (2)
-6. The number of props should be 0-2. (4, 5).
+6. Use sensible defaults. (2)
+7. The number of props should be 0-2. (4, 5).
 
 ## React
 
@@ -30,6 +31,7 @@ A work in progress ....
 14. Don't rely on snapshot tests. (4)
 15. Work against mock data and mock API. (8)
 16. Avoid state that can be derived. Calc on the fly. (8)
+17. Avoid render props. (4)
 
 ## Sources
 
